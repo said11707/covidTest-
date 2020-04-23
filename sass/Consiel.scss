@@ -1,0 +1,202 @@
+@import "../sass/variable.scss";
+@import "../sass/mixins.scss";
+@import '../sass/NFH.scss';
+section{
+    .protéger_title{
+        margin-top: 100px;
+        text-align: center;
+        color: $zra9;
+        font-size: 20px;
+        @media only screen and (max-width: 600px) {
+            font-size: 15px;
+
+        }
+    }
+    .protéger{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80%;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+            
+
+        }
+        div{
+            width: 26%;
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+            color: $zra9;
+            @media only screen and (max-width: 600px) {
+                
+                width: 40%;
+
+            }
+            P{
+                font-size: large;
+            }
+           
+        }
+        .img{
+            img{
+                height: 110px;
+            }
+            p{
+                font-size: large;
+            }
+
+        } 
+    }
+    .last{
+        width: 25%;
+        margin: -20px auto;
+        text-align: center;
+    color: $zra9;
+        @media only screen and (max-width: 600px) {
+            
+            width: 70%;
+
+        }
+        p{
+            font-size: large;
+        }
+    }
+    
+}
+//information section
+section{
+    .information{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: $CHIBI;
+        margin-top: 50px;
+        @media only screen and (max-width: 800px) {
+            
+           flex-direction: column;
+           justify-content: center;
+
+
+        }
+       
+        .information_1{
+            width: 35%;
+            text-align: center;
+            @media only screen and (max-width: 800px) {
+            
+               
+                width: 67%;
+            
+    
+            }
+            h1{
+                font-size: 30px;
+                color: $zra9;
+            }
+            h3{
+                color: $zra9;
+            }
+        }
+        .information_2{
+            width: 29%;
+            text-align: center;
+            @media only screen and (max-width: 800px) {
+            
+                margin: 30px auto; 
+                width: 50%;
+            
+    
+            }
+            @media only screen and (max-width: 545px) {
+            
+                margin: 30px auto; 
+                width: 100%;
+            
+    
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                background-color: $zra9;
+            
+             
+            }
+            p{
+                color: white;
+                padding: 20px;
+                width: 50%;
+                border-radius: 8px;
+                background-color: $zra9;
+                margin: auto;
+            }
+        }
+    }
+}
+
+section{
+
+
+    .sympt_title h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 200%;
+        color: $zra9;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 190%;
+        }
+        @media only screen and (max-width: 600px) {
+            font-size: 160%;
+        }
+
+    }
+
+    .sympt_A {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        margin: 30px auto;
+
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+        }
+    }
+
+    .sympt_A_2,
+    .sympt_A_1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    // .sympt_A_2 {
+    //     margin-left: 40px;
+    // }
+}
+.sympt{
+    padding: 20px;
+    margin-top: 50px;
+    .sympto{
+        margin-top: 50px;
+        div{
+            // width: 70%;
+            text-align: center;
+            color: $zra9;
+            img{
+                // width:;
+                height: 120px;
+            }
+        }
+    }
+}
