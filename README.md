@@ -2,5 +2,4 @@ Suite à l'etat Actuel au Maroc face à la pandémie CORONA VIRUS YouCode a prop
 en repondant à des questions qu'un medecin nous posera sur place. 
 
 LE lien du site /
- https://covid19test.imfast.io/
-
+https://said11707.github.io/covidTest-/
